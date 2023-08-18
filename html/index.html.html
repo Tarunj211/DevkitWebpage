@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devkit</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(234, 219, 242);
+        }
+
+        .main-container {
+            height: 80vh;
+            width: 80%;
+            margin: auto;
+            margin-top: 8vh;
+            background-color: #fff;
+            border-radius: 15px;
+        }
+
+        .container {
+            width: 85%;
+            margin: auto;
+
+        }
+
+        header {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        span {
+            color: blue;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 20px;
+            color: gray;
+        }
+
+        aside {
+            margin-top: 22vh;
+            width: 60%;
+            float: left;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-size: 2.2em;
+        }
+
+        #btn1 {
+            background-color: blue;
+            color: white;
+            padding-left: 13px;
+            padding-right: 13px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border: none;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+
+        #btn2 {
+            background-color: rgb(234, 219, 242);
+            color: blue;
+            padding-left: 13px;
+            padding-right: 13px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        article {
+            
+            margin-top: 15vh;
+            width: 40%;
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container"><br>
+            <header>
+                <span style="font-size: 1.4em;"> Devkit.</span>
+                <div>
+                    <a href="">Account</a>
+                    <a href="">About</a>
+                    <a href="">Service</a>
+                    <a href="">Contact</a>
+                </div>
+            </header>
+            <section>
+                <aside>
+                    <h1> Welcome to <span>Devkit.</span> <br>
+                        Develop anything.</h1><br>
+                    <div style="font-size: 1.2em;">
+                        Build a beautiful, modern website with flexible <br>
+                        components built from scratch.
+                    </div><br><br>
+                    <input id="btn1" type="button" value="View All Pages >">
+                    <input id="btn2" type="button" value="Documentation">
+                </aside>
+                <article>
+                    <img src="../image/article img.jpg" width="400px" alt="">
+                </article>
+
+            </section>
+
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
